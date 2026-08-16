@@ -5,7 +5,7 @@ I started this book because I want to have an idiomatic understanding of how to 
 for the rest of my notes I will refer to Kernighan as k, because of k&r
 
 > [!NOTE]
-> the book has a way to download the examples using go get, for learning purposes I hand-coded all of the examples and put them under the `./examples` directory.
+> the book has a way to download the examples using go get, for learning purposes I hand-coded all of the examples and put them under the `./exercises-and-examples/` directory.
 
 ## preface
 
@@ -101,7 +101,7 @@ now, onto the actual...
 - indexing with arrays is like any other language. slices also have subsequences in the form of s[n:m].
  first index incldued last index excluded. 
 
-example implementations of the unix `echo` command, including my own, can be seen under `examples/echo`
+example implementations and exercises of the unix `echo` command, including my own, can be seen under `./exercises-and-examples/echo`
 
 The book also talks about how package level comments are usually placed right before the package declaration. My lazyvim + my lsp render the documentation when clicking shift+k on any stdlib module so it was useful to know how thats done.
 
