@@ -28,7 +28,7 @@ successful languages create offspring that take on the advantages of their creat
 
 the book states that by viewing the ancestors of a programming language one can see for what it exists in the first place.
 
-![go langauge taxonomy](../imgs/go-language-taxonomy.png)
+![go langauge taxonomy](./imgs/go-language-taxonomy.png)
 
 go is described as the 21st century C by some people. 
 it takes inspiration from c because of its:
