@@ -23,7 +23,7 @@ func main() {
 
 	execution_time_inefficient := finished_at_inefficient.Sub(executed_at_inefficient)
 	execution_time_efficient := finished_at_efficient.Sub(executed_at_efficient)
-	execution_time_difference_seconds := execution_time_efficient - execution_time_inefficient
+	execution_time_difference_seconds := execution_time_inefficient - execution_time_efficient
 
 	fmt.Printf("the efficient program is %s faster than the inefficient program", execution_time_difference_seconds)
 }
