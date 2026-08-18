@@ -1,2 +1,2 @@
-
-- implement the exercises in the first hello world example, add it under the exercises folder
+- [ ] figure out why exercise 1.3 shows an inconsistent comparison
+- [x] implement the exercises in the first hello world example, add it under the exercises folder
