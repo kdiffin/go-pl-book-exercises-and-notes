@@ -163,3 +163,5 @@ While implementing this I learned about:
 time.Parse (which takes in a layout string, either as a constant from the [time library](https://pkg.go.dev/time) or as a handwritten example, and the time string itself to construct a time variable. [See the stdlib for more details](https://pkg.go.dev/time#Parse))
 
 And the Format method on a variable of type time.Time. Which is returns a string.
+
+Also time.Duration is beautifully simple, its just an int64 of nanoseconds. That's why you can minus one from another.
